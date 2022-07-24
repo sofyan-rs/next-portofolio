@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',sans-serif;background:#f1f1f1;color:#333;margin:0;min-height:100vh;display:grid;grid-template-rows:auto 1fr auto}
+*,::after,::before{box-sizing:border-box}
+a{text-decoration:none;color:inherit;transition:.2s}
+p{margin:0}
+p.justify{text-align:justify}
+:focus{outline:0}
+button{cursor:pointer}
+button:disabled,button[disabled]{cursor:inherit}
+img{width:100%;height:auto}
+.container{margin:0 auto;max-width:1280px}
+header{background:#fff;border-top:solid 5px #fec467;padding:10px;position:relative;display:block;box-shadow:5px 8px 10px #ddd}
+header .logo{display:inline-block}
+header .logo h1{margin:0}
+header .logo h1 .svg-inline--fa{background:#fec467;color:#fff;padding:8px;border-radius:5px;font-size:30px}
+header .nav{float:right}
+header .nav ul{list-style:none;margin:0;padding:0;display:inline-block;margin:10px}
+header .nav ul li{display:inline-block}
+header .nav ul li a{padding:10px 20px;font-weight:600;background:#f1f1f1;border-radius:5px;margin:0 5px}
+header .nav ul li a:hover{background:#fec467!important;color:#fff!important}
+header #showmenu,header .showmenu{display:none}
+.content-type-1{background:#fff}
+.content-type-1.with-bg{background:#fff url(https://cdn.staticaly.com/img/4.bp.blogspot.com/-alPKtyxQxTg/W4Zg9GsK5rI/AAAAAAAAAM4/0GbDlvV_7S4l6zF4PAFXGCjCMRWOMSHPgCLcBGAs/s1600/heleh+maling+sia.png);-webkit-animation:loopnavbg-data-v-c423aec0 350s linear infinite;animation:loopnavbg-data-v-c423aec0 350s linear infinite;-webkit-animation:loopnavbg-data-v-c423aec0 350s linear infinite;animation:loopnavbg-data-v-c423aec0 350s linear infinite;animation:loopingbackg 350s linear infinite}
+.intro{padding:60px 20px;padding-bottom:80px}
+.intro h2{font-size:54px;margin:0}
+.intro .hi{font-size:28px;display:inline-block;margin-bottom:5px}
+.intro .status{background:#fec467;padding:10px 20px;font-size:24px;font-weight:600;margin-top:10px;display:inline-block}
+.content-type-2{background:#fec467;padding:20px 0;border-top:dashed 8px #ffffff;border-bottom:dashed 8px #ffffff;}
+.about{padding:20px;font-size:18px}
+.about h3{font-size:28px;margin:0;display:inline-block;border-bottom:dotted 8px #de9e35;margin-bottom:10px}
+.about .me{border-bottom:dashed 5px #de9e35;padding-bottom:10px;margin-bottom:10px}
+.about .skills{background:#de9e35;display:inline-block;padding:5px 10px;border-radius:10px;font-size:20px;font-weight:600;margin:10px 0}
+.project{padding:30px 20px;text-align:center}
+.project h3{font-size:28px;margin:0;display:inline-block;border-bottom:dotted 8px #de9e35;margin-bottom:10px}
+.project .project-list{display:grid;grid-template-columns:33.3333% 33.3333% 33.3333%;margin-top:10px;margin-bottom:20px}
+.project .project-list .project-item{border:solid 2px #f1f1f1;margin:5px;padding:20px;transition:.2s}
+.project .project-list .project-item:hover{transform:translateY(-5px);box-shadow:0 13px 10px -5px rgba(119,119,119,0.167)}
+.project .project-list .project-item .project-desc h4{margin:0;font-size:18px}
+footer{background:#fff;padding:0 20px;border-top:solid 5px #fec467}
+footer .footer-section{padding-top:25px;display:grid;grid-template-columns:33.3% 33.3% 33.3%}
+footer .footer-section .footer-widget h3{display:inline-block;border-bottom:dotted 5px #fec467;margin:10px 0}
+footer .footer-section .footer-widget .content{margin-bottom:40px;margin-right:20px}
+footer .footer-section .footer-widget .content .svg-inline--fa{color:#de9e35}
+footer .footer-section .footer-widget .social-media{margin:4px 0}
+footer .footer-section .footer-widget .social-media a{background:#fec467;font-size:18px;padding:5px 6px;margin-right:5px;display:inline-block;border-radius:4px}
+footer .copyright{padding:15px 0;border-top:dashed 4px #f1f1f1}
+footer .copyright .svg-inline--fa{color:#e07878}
+#darkmode{display:none}
+.darkmode-toggle{float:right;align-items:center;margin-top:12px;margin-right:15px;overflow:hidden;position:relative}
+.darkmode-toggle .mode{background:#eee;border:solid 2px #f1f1f1;padding:2px;display:flex;border-radius:50px;color:#fff;box-sizing:border-box;position:relative;cursor:pointer}
+.darkmode-toggle .fa-moon{color:#fff;padding:0 2px;font-size:15px}
+.darkmode-toggle .fa-sun{color:#fec467;padding:0.5px 2px;font-size:14px}
+.darkmode-toggle .toggle{position:absolute;top:1px;left:2px;background:#fff;width:17px;height:17px;border-radius:99%;transition:transform 0.5s;box-shadow:2px 2px 2px rgba(0,0,0,0.05)}
+.darkmode-toggle #darkmode:checked+.mode{background:#fec467;border-color:#fec467}
+.darkmode-toggle #darkmode:checked+.mode .toggle{transform:translateX(20px)}
+.theme-dark header{background:#1f1f1f;box-shadow:5px 8px 10px #333}
+.theme-dark header .nav ul li a{background:#323232;color:#ccc}
+.theme-dark .content-type-1{background:#323232}
+.theme-dark .content-type-1.with-bg{background:#323232 url(https://cdn.staticaly.com/img/4.bp.blogspot.com/-alPKtyxQxTg/W4Zg9GsK5rI/AAAAAAAAAM4/0GbDlvV_7S4l6zF4PAFXGCjCMRWOMSHPgCLcBGAs/s1600/heleh+maling+sia.png);-webkit-animation:loopnavbg-data-v-c423aec0 350s linear infinite;animation:loopnavbg-data-v-c423aec0 350s linear infinite;-webkit-animation:loopnavbg-data-v-c423aec0 350s linear infinite;animation:loopnavbg-data-v-c423aec0 350s linear infinite;animation:loopingbackg 350s linear infinite}
+.theme-dark .intro h2,.theme-dark .intro .hi,.theme-dark .project{color:#ddd}
+.theme-dark .project .project-list .project-item{border-color:#1f1f1f;color:#bbb}
+.theme-dark .project .project-list .project-item:hover{color:#eee;box-shadow:0 13px 10px -5px rgba(34,34,34,0.372)}
+.theme-dark .content-type-2{border-top:dashed 8px #323232;border-bottom:dashed 8px #323232;}
+.theme-dark footer{background:#1f1f1f;color:#aaa}
+.theme-dark footer .copyright{padding:15px 0;border-color:#323232}
+@-webkit-keyframes loopingbackg{
+  to{background-position:0 -3000px}
+}
+@keyframes loopingbackg{
+  to{background-position:0 -3000px}
+}
+@media only screen and (max-width:768px){
+  header .showmenu{display:initial;cursor:pointer;float:right;background:#f1f1f1;font-size:18px;padding:10px 15px;border-radius:5px}
+  .theme-dark header .showmenu{background:#323232;color:#ddd}
+  header .nav{float:none;max-height:0;overflow:hidden;transition:.2s}
+  header #showmenu:checked~.nav{max-height:500px}
+  header .nav ul{display:block;margin:0;padding-top:5px}
+  header .nav ul li{display:block;margin:8px 0}
+  header .nav ul li a{display:block;width:100%;margin:0}
+  .intro{padding:40px 20px;padding-bottom:50px}
+  .intro h2{font-size:36px}
+  .intro .hi{font-size:25px;margin-bottom:4px}
+  .intro .status{background:#fec467;padding:10px 20px;font-size:18px;font-weight:600;margin-top:10px;display:inline-block}
+  .about{padding:20px;font-size:16px}
+  .about h3{font-size:25px}
+  .project .project-list{grid-template-columns:100%}
+  footer .footer-section{display:block}
+  footer .copyright{text-align:center}
+}
