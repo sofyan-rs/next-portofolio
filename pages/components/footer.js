@@ -30,9 +30,9 @@ const Footer = () => {
                             <h3>Links</h3>
                             <div className="content">
                                 <div className="social-media">
+                                    <a className="git" href="https://github.com/sofyan-rs"><FontAwesomeIcon icon={faGithub} fixedWidth /></a>
                                     <a className="ln" href="https://www.linkedin.com/in/sofyan-rudiana-syamsi/"><FontAwesomeIcon icon={faLinkedin} fixedWidth /></a>
                                     <a className="ig" href="https://www.instagram.com/sofyan_zr/"><FontAwesomeIcon icon={faInstagram} fixedWidth /></a>
-                                    <a className="git" href="https://github.com/sofyan-rs"><FontAwesomeIcon icon={faGithub} fixedWidth /></a>
                                     <a className="yt" href="https://www.youtube.com/channel/UCofhHvEtD_x4cvW4YYPUDWA"><FontAwesomeIcon icon={faYoutube} fixedWidth /></a>
                                 </div>
                             </div>
