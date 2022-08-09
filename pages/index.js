@@ -48,6 +48,7 @@ export default function Home() {
                         <Project url="https://pameran.hmepolban.com/" title="Pameran TA Online" description="Website Pameran Alat TA Teknik Elektronika Polban" />
                         <Project url="https://kpp.hmepolban.com/" title="E-Vote HME" description="Website Pemilihan Ketua Himpunan Mahasiswa Elektronika Polban" />
                         <Project url="https://lppm.unisba.ac.id/" title="LPPM UNISBA" description="Website Lembaga Penelitian dan Pengabdian kepada Masyarakat (LPPM) Universitas Islam Bandung" />
+                        <Project url="https://pokedex-kdevz.netlify.app/" title="Pokedex App" description="Website Pokedex sederhana dibuat menggunakan React.js dan PokeAPI" />
                     </div>
                 </div>
             </div>
