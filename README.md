@@ -1,4 +1,4 @@
-# Simple Portofolio App using NextJS
+# Simple Portofolio Site using NextJS
 
 This project was created with NextJS.
 
