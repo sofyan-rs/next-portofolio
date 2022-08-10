@@ -2,7 +2,7 @@
 
 This project was created with NextJS.
 
-url : https://pokedex-kdevz.netlify.app/
+url : http://sofyan.tech/
 
 ## Installing
     npm install
