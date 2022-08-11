@@ -16,7 +16,7 @@ const Footer = () => {
                         <div className="footer-widget">
                             <h3 id="contact">Contact Me</h3>
                             <div className="content">
-                                <p><FontAwesomeIcon icon={faEnvelope} fixedWidth /> sofyan423@gmail.com</p>
+                                <p><FontAwesomeIcon icon={faEnvelope} fixedWidth /> sofyanrudianasyamsi@gmail.com</p>
                                 <p><FontAwesomeIcon icon={faWhatsapp} fixedWidth /> 089513190059</p>
                             </div>
                         </div>
