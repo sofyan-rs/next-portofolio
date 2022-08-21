@@ -26,9 +26,9 @@ export default function Home() {
             <div className="container">
                 <div className="about">
                     <h3 id="about">About Me</h3>
-                    <p className="justify me">I am an Associate Degree of Electronics Engineering, graduate from Bandung State Polytechnic. Like technology-related things such as microcontrollers, Internet of Things, and mastering several programming languages. Have experience working as a freelancer Wordpress Developer.</p>
+                    <p className="justify me">I am a Fresh Graduate Associate Degree of Electronics Engineering, graduate from Bandung State Polytechnic. I like technology-related things such as electronics, computer, microcontrollers, Internet of Things, AI, Machine Learning, and Website Development. Have experience working as a Freelance Wordpress Developer.</p>
                     <span className="skills">Skills</span>
-                    <p><b>Non-Technical : </b>Teamwork, Creativity</p>
+                    <p><b>Non-Technical : </b>Teamwork, Creativity, Problem Solving</p>
                     <p><b>Technical : </b>Electronics, SketchUp, Autocad, Altium PCB, SCADA, HMI, PLC, IoT, Wordpress, Git, Firebase</p>
                     <p><b>Progamming Language : </b>Arduino, PHP, HTML, CSS, JavaScript, SQL, Node.js, ReactJS, NextJS</p>
                 </div>
